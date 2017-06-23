@@ -5,10 +5,12 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { DogService } from './dog.service';
+import { DogsComponent } from './dogs/dogs.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DogsComponent
   ],
   imports: [
     BrowserModule,
